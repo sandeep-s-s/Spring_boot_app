@@ -24,7 +24,7 @@
         <a class="nav-link" href="/register">Signup</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact</a>
+        <a class="nav-link" href="/contact">Contacts</a>
       </li>    
     </ul>
   </div>  
@@ -37,7 +37,7 @@
     <div th:if="${message}" th:text="${message}" class="alert alert-success"></div>
   	<div th:if="${error}" th:text="${error}" class="alert alert-danger"></div>
     <div class="form-group">
-      <label for="name">Name:</label>
+      <label for="name">Namedd:</label>
       <input type="text" class="form-control" id="name" placeholder="Enter name" th:field="*{name}" >
       <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class='text-danger'></span>
     </div>
