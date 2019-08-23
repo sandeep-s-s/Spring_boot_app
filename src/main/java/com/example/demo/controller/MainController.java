@@ -33,6 +33,7 @@ public class MainController {
     		modelAndView.addObject("error", "Something went wrong");
         } else {
         	contactRepository.save(contact);
+        	System.out.println("fsdgsfdg1");
         	modelAndView.addObject("message", "Thank you for contacting us !");
         }
         return modelAndView;

@@ -12,6 +12,7 @@ public class Contact {
 	private Integer id;
 	private String name;
 	private String email;
+	private String comment;
 	
 	public Integer getId() {
 		return id;
@@ -30,6 +31,12 @@ public class Contact {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public String getComment() {
+		return comment;
+	}
+	public void setComment(String comment) {
+		this.comment = comment;
 	}
 	
 
