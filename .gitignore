@@ -41,3 +41,6 @@ out/
 -/scratch
 -.gradle
 -README.html
+
+
+-src/main/resources/application.properties
